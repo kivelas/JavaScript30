@@ -13,7 +13,8 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 60vh;
+  margin-top: 20vh;
   align-items: center;
   justify-content: center;
 }
@@ -48,4 +49,27 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: aqua;
+}
+
+#randomPlayButton {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 15rem;
+  text-align: center;
+  color: aqua;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+#random{
+  display: flex;
+  flex: 1;
+  min-height: 5vh;
+  align-items: center;
+  justify-content: center;
 }
